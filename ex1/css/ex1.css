@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+    outline: none;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: SFU;
+    src: url(../css/font/SFUAngieBold.TTF);
+}
+
+.background {
+    display: block;
+    position: relative;
+}
+
+.content {
+    width: 565px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.776);
+    position: absolute;
+    left: 185px;
+    top: 140px;
+    border-radius: 3px;
+}
+
+.content-container {
+    margin: 35px 30px;
+}
+
+h1 {
+    color: #bf4240;
+    margin: 15px 0;
+}
+
+.info {
+    font-size: 0.85em;
+    margin: 0px;
+}
+
+.address {
+    margin: 5px 0px;
+    display: flex;
+}
+
+.address>p {
+    margin: 0px 5px;
+}
+
+.price {
+    font-family: SFU, serif;
+    background-color: #bf4240;
+    padding: 10px;
+    width: 125px;
+    color: white;
+    border-radius: 3px;
+    position: absolute;
+    right: 30px;
+    bottom: -20px;
+}
